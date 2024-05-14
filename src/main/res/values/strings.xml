@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Budget Transit App</string>
+    <string name="Origin">Starting Location</string>
+    <string name="gps_network_not_enabled">Location Network Not Enabled</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="plan">Plan my trip</string>
+    <string name="key">AIzaSyD7vn0ZEuSK-4LQnS54gpe3IomRx0iK8vA</string>
+    <string name="Cancel">cancel</string>
+    <string name="Date">00-Jan-0000</string>
+    <string name="Time">00-00</string>
+</resources>
