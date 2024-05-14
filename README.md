@@ -1,4 +1,4 @@
-ransit application to save mobile data.
+transit application to save mobile data.
 
 Features:
 * User Input Parsing: The app parses user input for date, time, desired transit option (bus, train, etc.), and location using Google Search API for accurate recognition.
