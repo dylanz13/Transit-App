@@ -13,7 +13,8 @@
         android:layout_height="211dp"
         android:layout_weight="80"
         android:gravity="center"
-        android:scaleType="center" />
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
 
     <LinearLayout
         android:orientation="vertical"

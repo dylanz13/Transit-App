@@ -91,7 +91,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         Window window = this.getWindow();
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        window.setStatusBarColor(this.getResources().getColor(R.color.dark_pink));
+        window.setStatusBarColor(this.getResources().getColor(R.color.hot_pink));
 
         //Custom Back Button
         ActionBar actionBar = getSupportActionBar();
@@ -136,7 +136,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             );
         }else if(travelMode.equals("BUS")){
             mMap.addPolyline(new PolylineOptions()
-                    .color(getResources().getColor(R.color.hot_pink)) // Line color
+                    .color(getResources().getColor(R.color.blue)) // Line color
                     .width(POLYLINE_WIDTH) // Line width
                     .clickable(false) // Able to click or not
                     .addAll(coordinates) // Polyline coordinates

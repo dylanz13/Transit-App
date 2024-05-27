@@ -56,7 +56,7 @@ public class OnMapAndViewReadyListener implements ViewTreeObserver.OnGlobalLayou
         fireCallbackIfReady();
     }
     //Callback method to be invoked when the global layout state or the visibility of views within the view tree changes.
-    @SuppressWarnings("deprecation")  // We use the new method when supported
+
     @SuppressLint("NewApi")  // We check which build version we are using.
     @Override
     public void onGlobalLayout() {

@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
         Window window = this.getWindow();
         window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
         window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        window.setStatusBarColor(this.getResources().getColor(R.color.dark_pink));
+        window.setStatusBarColor(this.getResources().getColor(R.color.hot_pink));
 
         //Custom Back Button
         ActionBar actionBar = getSupportActionBar();

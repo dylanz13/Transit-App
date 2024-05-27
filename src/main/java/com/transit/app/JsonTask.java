@@ -147,7 +147,7 @@ public class JsonTask extends AsyncTask<String, String, String> {
                                     steps.getJSONObject(i).getJSONObject("duration").getString("text"),
                                     steps.getJSONObject(i).getString("html_instructions"),
                                     "Bus",
-                                    R.drawable.pink_line,
+                                    R.drawable.blue_line,
                                     details.getJSONObject("arrival_time").getString("text"),
                                     details.getJSONObject("departure_time").getString("text"),
                                     details.getJSONObject("line").getString("short_name")+
